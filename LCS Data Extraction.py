@@ -5,9 +5,9 @@ import xlsxwriter
 
 df = pd.read_excel('C:\\Users\\Jeff\\Downloads\\2019-spring-match-data-OraclesElixir-2019-05-21.xlsx')
 new_df = pd.read_excel('C:\\Users\\Jeff\\Desktop\\LCS.xlsx')
-print("test")
+drop_list=["gameid", "url", "split", 'date', 'patchno','player','ban1','ban2','ban3','ban4','ban5']
 def info_parsing(df):
-    df.drop(["gameid", "url", "split", 'date', 'patchno','player'], axis=1, inplace=True)
+    df.drop(drop_list, axis=1, inplace=True)
     league_reduced = df.loc[df['league'] == 'LCS']
     player_id=league_reduced.drop(columns="playerid")
     pos_team= player_id[player_id['position']=='Team'].index
@@ -17,7 +17,6 @@ def info_parsing(df):
     writer.save()
     return df
 League_list=["LCS"] #To be added later for multi leagues
-print("Test2")
 info_parsing(df)
 '''Next is making a string values a int value'''
 def handle_non_numerical_data(new_df):
@@ -40,5 +39,4 @@ def handle_non_numerical_data(new_df):
             new_df[column] = list(map(convert_to_int, new_df[column]))
     return new_df
 handle_non_numerical_data(new_df)
-#print(new_df.head())
 print(new_df.iloc[:10,:10])

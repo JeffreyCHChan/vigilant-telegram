@@ -3,7 +3,8 @@
 from datetime import time
 from os import sys
 import os
-
+import time
+from GameFunctions import *
 no_list = ["no", "n", "N", "No"]
 yes_list = ["yes", "y", "Y", "Yes"]
 name = ""
@@ -31,35 +32,7 @@ Skills = ['Overall_level', "strength", "intelligence", "agility"]
 # print
 
 
-class Class(object):
-    def __init__(self, name, Overall_level, strength, intelligence, agility):
-        self.name = name
-        self.Overall_level = Overall_level
-        self.strength = strength
-        self.intelligence = intelligence
-        self.agility = agility
 
-    inventory = {
-        'gold': 150,
-        'pouch': [],
-        'backpack': []
-
-    }
-
-
-class Mage(Class):
-    def __init__(self, name, Overall_level, strength, intelligence, agility):
-        self.name = name
-        self.Overall_level = Overall_level
-        self.strength = strength
-        self.intelligence = intelligence
-        self.agility = agility
-
-    inventory = {
-        'gold': 300,
-        'pouch': ['Ring of Frost', 'Staff of Wisdom'],
-        'backpack': []
-    }
 
 
 # print("Chosen class %s" %())
@@ -101,13 +74,16 @@ print("Available items are " + str(Mage_inventory))  # copy paste at the end of 
 # " with the first letter of your class capitalized \n ")
 
 # need to find a way to put a input at the end of all actions
+time.sleep(2)
 
 print("\nNow that you know the basics tis' time for an adventure!")
 
-clear()
 
-print("You are walking down a dirt path when you come across a hooded figure in the distance, Hello there! he yells. \nYou decide to continue towards him, How may I help you? Jimmy\'s the name, Potions are my game.\nWell you do have anything an adventurer could use?\nOf course I do, I\'ve got anything you could ever imagine!\nWhat about a fire potion? \n*Searches bag*\nOutta luck kid, just sold my last one.")
-print("I do have this potion that I\'ve been working on, haven\'t got a name for it but I do know it has gotten me out of many pickles.\nWhy don\'t you take it for a measly 100 gold?")
+print("You are walking down a dirt path when you come across a hooded figure in the distance, Hello there! he yells. "
+      "\nYou decide to continue towards him, How may I help you? Jimmy\'s the name, Potions are my game."
+      "\nWell you do have anything an adventurer could use?")
+print("I do have this potion that I\'ve been working on, haven\'t got a name for it but I do know it has gotten me out "
+      "of many pickles.\nWhy don\'t you take it for a measly 100 gold?")
 sit1 = ""
 sit1 = input("Do you take the potion or not?(y or n)")
 # needed this for some reason, try changin alphabet value to numeric values might work better
@@ -123,9 +99,8 @@ elif sit1 in yes_list:
     Mage_inventory['backpack'].append("potion")
     Mage_inventory["gold"] -= 100
     print(" ")
-    print("Thank you sir!")
+    cls()
     print("You now have " + str(Mage_inventory))
-print(" \n ")
 
 
 # Game over path
@@ -133,12 +108,21 @@ print(" \n ")
 # print("Game Over")
 # quit()
 # time.sleep(.5)
-# os.execv(__file__, sys.argv)
-print("You continue to travel down the forest path. As you begin to reach the end of it, you become blinded by a light as you shield your eyes, it disappears only for you to see a whole new mythical world. Filled with creatures running about freely, just as you are about to begin exploring you start to get a feeling that you are being watched. You look around but see no one behind you.")
-print("Walking out of the forest you gaze out to see nothing but what seems to be an empty field. You begin walking through the tall grass when all of a sudden you get another feeling that you are being watched, you spin around but this time you find someone is actually following you.")
-print("*BAM* All of a sudden you feel numb and drop to the ground.")
-print("The ground shakes as you wake up, in front of you a rock like creature roars in your face. You scramble backwards as fast as you can, heart racing the beast begins to charge at you.")
+print(r"You continue to travel down the forest path. As you begin to reach the end of it, you become blinded by a light"
+      r" as you shield your eyes, it disappears only for you to see a whole new mythical world. Filled with creatures "
+      r"running about freely, just as you are about to begin exploring you start to get a feeling that you are being "
+      r"watched. You look around but see no one behind you.")
+time.sleep(6)
+print(r"Walking out of the forest you gaze out to see nothing but what seems to be an empty field. You begin walking "
+      r"through the tall grass when all of a sudden you get another feeling that you are being watched, you spin around"
+      r" but this time you find someone is actually following you.")
+time.sleep(3)
+print(r"*BAM* All of a sudden you feel numb and drop to the ground.")
+time.sleep(2)
+print(r"The ground shakes as you wake up, in front of you a rock like creature roars in your face. You scramble "
+      r"backwards as fast as you can, heart racing the beast begins to charge at you.")
 print(" ")
+
 sit2 = ""
 print(Mage_stats)
 print("")
@@ -151,21 +135,27 @@ elif sit2 == "agt":
     sit2 = 2
 elif sit2 == "str":
     sit2 = 3
-
+cls()
 
 if sit2 == 1:
     Mage_stats["Overall_level"] = 2
     print("\nLevel up!")
     print(Mage_stats)
-    print("\nYou cast a spell that stops it right where it stands, you decide to approach it. As you keep getting closer it keeps repeating 'Must \nComplete \nQuest'. ")
+    print(r"You cast a spell that stops it right where it stands, you decide to approach it. As you keep getting "
+          r"closer it keeps repeating 'Must "
+          r"Complete "
+          r"Quest'. ")
 elif sit2 == 2:
-    print("\nYou nearly dodge it but are clipped by a shard sticking out and are spun around but you catch your footing and land softly in a patch of grass. While the beast trips over a rock and takes a hard fall onto it's head, becoming dazed.")
+    print(r"You nearly dodge it but are clipped by a shard sticking out and are spun around but you catch your "
+          r"footing and land softly in a patch of grass. While the beast trips over a rock and takes a hard fall onto"
+          r" it's head, becoming dazed.")
 elif sit2 == 3:
-    print("\nIt catches your hand and tosses you over its shoulder and you take a hard landing in the field")
+    print(r"It catches your hand and tosses you over its shoulder and you take a hard landing in the field")
 else:
     print("Error")
 
 print("\n")
-print("After interrogating the beast for a few minutes, you decide you let it go on the condition that it would bring you back to who sent it.")
+print(r"After interrogating the beast for a few minutes, you decide you let it go on the condition that it would "
+      r"bring you back to who sent it.")
 print("After much resistance the beast ultimately gives in to your demands, ")
 print("To Be Continued")
