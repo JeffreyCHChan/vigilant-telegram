@@ -1,10 +1,11 @@
-class user(object):
+'''class user(object):
     def __init__(self,cash, rewards, name):
         self.cash = cash
         self.rewards = rewards
         self.name = name
+'''
 
-player_1 = user(100,0,"Jim")
+
 bet = None
 def betting():
     bet = int(input("How much are you betting?"))
@@ -15,10 +16,19 @@ def betting():
     else:
         blackjack()
 
-
+class User(object):
+    def __init__(self, Money, Wins, Losses, name):
+        self.Money = Money
+        self.Wins = Wins
+        self.Losses = Losses
+        self.name = name
+    def stats(self,Money,Wins,Losses):
+        Money
+        Wins
+        Losses
 def burrow_money():
     print("\nYou currently have "+ str(player_1.cash))
     loan = int(input("How much would you like to burrow?"))
     player_1.cash+=loan
 
-betting()
+#betting()

@@ -17,7 +17,7 @@ def Magic8Ball():
         print("My sources say no.")
     elif num == 7 or num == 8:
         print("Cannot predict now.")
-    cont = input("\nWould you like to continue? Y or N")
+    cont = input("\nWould you like to ask another question? Y or N")
     if cont in yes_list:
         Magic8Ball()
     elif cont in no_list:

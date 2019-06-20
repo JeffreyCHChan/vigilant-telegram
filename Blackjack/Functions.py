@@ -1,10 +1,31 @@
 import random
 import numpy as np
-
+from UserInteraction import *
 
 no_list = ["no", "n", "N", "No"]
 yes_list = ["yes", "y", "Y", "Yes"]
-player = {'Money' : 5, "Wins":0, 'Losses':0}
+#player = {'Money' : 5, "Wins":0, 'Losses':0}
+
+
+Player = User(500, 0, 0, "Jim")
+def intro():
+    anonymous = ["A", "a"]
+    try:
+        name = input("What's your name.")
+        first_letter = name[0].upper()
+        rest_of_name = name[1:len(name)].lower()
+        name = first_letter + rest_of_name
+        Default = User(500, 0, 0, name)
+        print('Hello ' + Default.name)
+        print("Cash: %d, Wins: %d, Losses:%d" % (Default.Money, Default.Wins, Default.Losses))
+    except IndexError:
+        print("No name was entered, if you would like to play anonymously enter A or a")
+        name = input("What is your name?")
+        if name in anonymous:
+            print("Welcome Stranger!")
+
+
+
 def blackjack():
 
     #used_card = []
@@ -60,52 +81,44 @@ def blackjack():
                 next_move = input("Hit or Stay?")
                 if next_move in hit:
                     P_random_card()
-                    print(player_cards)
+                    print("\n\nYour cards\n" + str(player_cards))
+                    print(sum(player_cards))
                 elif next_move in stay:
-                    print(player_cards)
+                    print("\n\nYour cards\n" + str(player_cards))
                     print(sum(player_cards))
                     return cycle == False
             elif player_cards[0] + player_cards[1] + player_cards[2] > 21:
-                print(sum(player_cards))
-                print("Over 21. You Lose!")
                 return cycle == False
 
             if sum(player_cards) <= 21:
                 next_move = input("Hit or Stay?")
                 if next_move in hit:
                     P_random_card()
-                    print(player_cards)
+                    print("\n\nYour cards\n" + str(player_cards))
                     print(sum(player_cards))
                     if sum(player_cards)> 21:
-                        print("Over 21. You Lose!")
                         break
 
                 elif next_move in stay:
-                    print(player_cards)
+                    print("\n\nYour cards\n" + str(player_cards))
                     print(sum(player_cards))
                     return cycle == False
             elif sum(player_cards) > 21:
-                print(sum(player_cards))
-                print("Over 21. You Lose!")
                 return cycle == False
 
             if sum(player_cards) <= 21:
                 next_move = input("Hit or Stay?")
                 if next_move in hit:
                     P_random_card()
-                    print(player_cards)
+                    print("\n\nYour cards\n" + str(player_cards))
                     print(sum(player_cards))
                     if sum(player_cards) > 21:
-                        print("Over 21! You lose!")
                         break
                 elif next_move in stay:
-                    print(player_cards)
+                    print("\n\nYour cards\n" + str(player_cards))
                     print(sum(player_cards))
                     return cycle == False
             elif sum(player_cards) > 21:
-                print(player_cards)
-                print(sum(player_cards))
-                print("Over 21. You Lose!")
                 return cycle == False
 
     def Dealer():
@@ -113,61 +126,65 @@ def blackjack():
         D_random_card()
         cycle = True
         #while cycle == True:
-        if sum(dealer_cards) <= 17:
+        if sum(dealer_cards) < 17:
             D_random_card()
         else:
-            print(sum(dealer_cards))
+            #print(sum(dealer_cards))
             return cycle == False
 
-        if sum(dealer_cards) <= 17:
+        if sum(dealer_cards) < 17:
             D_random_card()
         else:
-            print(sum(dealer_cards))
+            #print(sum(dealer_cards))
             return cycle == False
 
-        if sum(dealer_cards) <= 17:
+        if sum(dealer_cards) < 17:
             D_random_card()
         else:
-            print(sum(dealer_cards))
+            #print(sum(dealer_cards))
             return cycle == False
 
-        if sum(dealer_cards) <= 17:
+        if sum(dealer_cards) < 17:
             D_random_card()
         else:
-            print(sum(dealer_cards))
+            #print(sum(dealer_cards))
             return cycle == False
 
     def replay():
         replay = input("Would you like to play again?")
         if replay in yes_list:
-            print("\n\n\nCash: %d, Wins: %d, Losses:%d" % (player['Money'], player["Wins"], player["Losses"]))
+            print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCash: %d, Wins: %d, Losses:%d" % (Player.Money, Player.Wins, Player.Losses))
             blackjack()
         else:
             print("Too bad :(")
 
     def end():
         if sum(dealer_cards) < sum(player_cards) and sum(player_cards) <= 21:
-            player['Money']+= 1
-            player["Wins"]+=1
-            print("Player Wins!")
+            Player.Money+= 1
+            Player.Wins+=1
+            print("\n\n\n" + "Player Wins\nYour cards\n"+str(player_cards) +"\n" + str(sum(player_cards)))
+            print('Dealer\'s cards\n'+str(dealer_cards) +"\n" + str(sum(dealer_cards)))
         elif sum(player_cards) < sum(dealer_cards) and sum(dealer_cards)<=21:
-            player['Money']-= 1
-            player["Losses"] += 1
-            print("Dealer Wins!")
-            print(dealer_cards)
+            Player.Money-= 1
+            Player.Losses += 1
+            print("\n\n\n" + "Dealer Wins!\n" + str(dealer_cards) +"\n"+ str(sum(dealer_cards)))
+            print("Your cards\n"+str(player_cards) +"\n" + str(sum(player_cards)))
         elif sum(player_cards) > sum(dealer_cards) and sum(dealer_cards) <= 21 :
-            player['Money']-= 1
-            player["Losses"] += 1
-            print("Dealer Wins!")
-            print(dealer_cards)
+            Player.Money -= 1
+            Player.Losses += 1
+            print("\n\n\n" + "Dealer Wins!\n" + str(dealer_cards) +"\n" + str(sum(dealer_cards)))
+            print("Your cards\n"+str(player_cards) +"\n" + str(sum(player_cards)))
         elif sum(player_cards) == sum(dealer_cards) and sum(player_cards)<=21 and sum(dealer_cards)<=21:
             print("Draw!")
         elif sum(player_cards) < sum(dealer_cards) and sum(player_cards) <=21:
-            player['Money']+= 1
-            player["Wins"] += 1
-            print("Player Wins")
+            Player.Money += 1
+            Player.Wins += 1
+            print("\n\n\n" + "Player Wins\nYour cards\n"+str(player_cards) +"\n" + str(sum(player_cards)))
+            print('Dealer\'s cards\n'+str(dealer_cards) +"\n" + str(sum(dealer_cards)))
         else:
             print("Something went wrong")
+
+
     initial()
     Hit_or_miss()
     Dealer()
