@@ -7,3 +7,4 @@ stay = ['Stay', 'stay', "S", "s"]
 
 intro()
 blackjack()
+#this is game of Blackjack or 21
