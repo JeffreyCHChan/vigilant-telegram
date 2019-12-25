@@ -1,0 +1,622 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c609655e-5ad8-464a-bca3-c10253141f13" name="Default Changelist" comment="GUI enabled blackjack" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Unit Test" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
+  </component>
+  <component name="ProjectId" id="1ObxnqokuqY9Ef0SEJj4VtnJYpG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Blackjack" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\Blackjack" />
+      <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\LCS Linear Reg" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.env">
+    <configuration name="Blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/Blackjack.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Checklist" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Checklist.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="D&amp;D" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/D&amp;D.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Data Extraction" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\LCS Linear Reg\Data_Extraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Data_Extraction" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS Linear Reg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS Linear Reg/Data_Extraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Excel Data extractor" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel Data extractor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/Functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="LCS Data Extraction" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS Data Extraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Mars Weather" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mars Weather.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="OpenAI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/OpenAI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Penniless pilgrim" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pong/Penniless pilgrim.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pseudo" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/src" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/src/Pseudo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="RL" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Pong" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Pong/RL.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Salary" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/LCS Linear Reg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/LCS Linear Reg/Salary.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Stats project" type="PythonConfigurationType" factoryName="Python">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Stats project.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="env" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/env.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.env" />
+        <item itemvalue="Python.Blackjack" />
+        <item itemvalue="Python.Functions" />
+        <item itemvalue="Python.GUI" />
+        <item itemvalue="Python.OpenAI" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c609655e-5ad8-464a-bca3-c10253141f13" name="Default Changelist" comment="" />
+      <created>1551729328202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551729328202</updated>
+    </task>
+    <task id="LOCAL-00001" summary="League specific extraction and info parsing is complete.">
+      <created>1559331293715</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1559331293715</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Data set is fully numerical">
+      <created>1559519690798</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559519690798</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Swapped from scikit learn to tensorflow">
+      <created>1563500942076</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1563500942076</updated>
+    </task>
+    <task id="LOCAL-00004" summary="List Maker">
+      <created>1563817755500</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1563817755500</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Box and whisker plot complete">
+      <created>1573520493173</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1573520493173</updated>
+    </task>
+    <task id="LOCAL-00006" summary="two test done">
+      <created>1573655695821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1573655695821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="end of day">
+      <created>1573658588275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1573658588275</updated>
+    </task>
+    <task id="LOCAL-00008" summary="begin of infer">
+      <created>1573661285777</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1573661285777</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Statistics done">
+      <created>1574260934498</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1574260934498</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Statistics and formatting done">
+      <created>1574261097591</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1574261097591</updated>
+    </task>
+    <task id="LOCAL-00011" summary="GUI enabled blackjack">
+      <created>1577235132179</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1577235132179</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="1">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="League specific extraction and info parsing is complete." />
+    <MESSAGE value="Data set is fully numerical" />
+    <MESSAGE value="Swapped from scikit learn to tensorflow" />
+    <MESSAGE value="List Maker" />
+    <MESSAGE value="Box and whisker plot complete" />
+    <MESSAGE value="two test done" />
+    <MESSAGE value="end of day" />
+    <MESSAGE value="begin of infer" />
+    <MESSAGE value="Statistics done" />
+    <MESSAGE value="Statistics and formatting done" />
+    <MESSAGE value="GUI enabled blackjack" />
+    <option name="LAST_COMMIT_MESSAGE" value="GUI enabled blackjack" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="324" y="93" width="814" height="731" key="#Intentions" timestamp="1577228858507">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="324" y="93" width="814" height="731" key="#Intentions/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577228858507" />
+    <state x="384" y="29" key="CommitChangelistDialog2" timestamp="1577313235267">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="384" y="29" key="CommitChangelistDialog2/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235131292" />
+    <state x="384" y="29" key="CommitChangelistDialog2/0.0.1462.864@0.0.1462.864" timestamp="1577313235267" />
+    <state width="707" height="275" key="GridCell.Tab.0.bottom" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="202" key="GridCell.Tab.0.bottom/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
+    <state width="707" height="275" key="GridCell.Tab.0.bottom/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.0.center" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="202" key="GridCell.Tab.0.center/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
+    <state width="707" height="275" key="GridCell.Tab.0.center/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.0.left" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="202" key="GridCell.Tab.0.left/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
+    <state width="707" height="275" key="GridCell.Tab.0.left/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.0.right" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="202" key="GridCell.Tab.0.right/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
+    <state width="707" height="275" key="GridCell.Tab.0.right/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.1.bottom" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="275" key="GridCell.Tab.1.bottom/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
+    <state width="707" height="275" key="GridCell.Tab.1.bottom/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.1.center" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="275" key="GridCell.Tab.1.center/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
+    <state width="707" height="275" key="GridCell.Tab.1.center/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.1.left" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="275" key="GridCell.Tab.1.left/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
+    <state width="707" height="275" key="GridCell.Tab.1.left/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state width="707" height="275" key="GridCell.Tab.1.right" timestamp="1577313333038">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state width="1438" height="275" key="GridCell.Tab.1.right/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
+    <state width="707" height="275" key="GridCell.Tab.1.right/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
+    <state x="240" y="74" key="SettingsEditor" timestamp="1577217824348">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="240" y="74" key="SettingsEditor/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577217824347" />
+    <state x="240" y="74" key="SettingsEditor/0.0.1462.864@0.0.1462.864" timestamp="1576545890236" />
+    <state x="758" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1577305710815">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="759" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577233589763" />
+    <state x="758" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1462.864@0.0.1462.864" timestamp="1577305710815" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
