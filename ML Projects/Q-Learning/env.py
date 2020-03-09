@@ -1,6 +1,6 @@
 import numpy as np
 from PIL import Image
-import cv2
+import cv2 #visualization
 import matplotlib.pyplot as plt
 import pickle
 from matplotlib import style
@@ -9,14 +9,14 @@ import time
 style.use("ggplot")
 
 SIZE = 10
-HM_EPISODES = 25000
+HM_EPISODES = 100000
 MOVE_PENALTY = 2
 FOOD_REWARD = 30
 epsilon = .9 # can change this
 EPS_DECAY = .9998
-SHOW_EVERY = 2
+SHOW_EVERY = 10000
 
-start_q_table = "qtable - 1577313017.pickle" #Could pass a q-table we made already and seed at this point
+start_q_table = 'qtable - 1577561983.pickle' #Could pass a q-table we made already and seed at this point
 #qtable - 1577309420.pickle
 LEARNING_RATE = 0.1
 DISCOUNT = 0.95
@@ -80,7 +80,7 @@ for episode in range(HM_EPISODES):
 
     if episode% SHOW_EVERY == 0:
         print(f" on #{episode}, epsilon: {epsilon}")
-        print(f"{SHOW_EVERY} ep mean{np.mean(episode_rewards[-SHOW_EVERY:])}")
+        print(f"{SHOW_EVERY} ep mean {np.mean(episode_rewards[-SHOW_EVERY:])}")
         show =True
     else:
         show = False

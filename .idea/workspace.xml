@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c609655e-5ad8-464a-bca3-c10253141f13" name="Default Changelist" comment="GUI enabled blackjack" />
+    <list default="true" id="c609655e-5ad8-464a-bca3-c10253141f13" name="Default Changelist" comment="GUI enabled blackjack">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/LCS Linear Reg/Data_Extraction.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML Projects/LCS Linear Reg/Data_Extraction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/LCS Linear Reg/Salary.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/env.py" beforeDir="false" afterPath="$PROJECT_DIR$/ML Projects/Q-Learning/env.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577309420.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577309710.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577309864.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577310119.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577310306.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577313017.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ML Projects/Q-Learning/qtable - 1577313065.pickle" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +40,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/Blackjack" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="Python" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ML Projects/Q-Learning/env.py" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
@@ -40,8 +53,8 @@
       <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\LCS Linear Reg" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.env">
-    <configuration name="Blackjack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.DataExtraaction">
+    <configuration name="Blackjack (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="vigilant-telegram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -49,11 +62,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Games/Blackjack" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/Blackjack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Games/Blackjack/Blackjack.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,6 +138,48 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="DataExtraaction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Science/DataExtraaction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Data_Extraction (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML Projects/LCS Linear Reg" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML Projects/LCS Linear Reg/Data_Extraction.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Data_Extraction" type="PythonConfigurationType" factoryName="Python">
       <module name="vigilant-telegram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,48 +214,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excel Data extractor.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vigilant-telegram" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/Functions.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="GUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="vigilant-telegram" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,7 +264,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="OpenAI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Modelling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="vigilant-telegram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,11 +272,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML Projects/LCS Linear Reg" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/OpenAI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML Projects/LCS Linear Reg/Modelling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -377,7 +390,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="env" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="vigilant-telegram" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -385,11 +398,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Blackjack" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Blackjack/env.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -398,13 +411,32 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Python.Checklist" />
+      <item itemvalue="Python.D&amp;D" />
+      <item itemvalue="Python.Data Extraction" />
+      <item itemvalue="Python.Data_Extraction" />
+      <item itemvalue="Python.Excel Data extractor" />
+      <item itemvalue="Python.LCS Data Extraction" />
+      <item itemvalue="Python.Mars Weather" />
+      <item itemvalue="Python.Penniless pilgrim" />
+      <item itemvalue="Python.Pseudo" />
+      <item itemvalue="Python.RL" />
+      <item itemvalue="Python.Salary" />
+      <item itemvalue="Python.Stats project" />
+      <item itemvalue="Python.Blackjack (1)" />
+      <item itemvalue="Python.Data_Extraction (1)" />
+      <item itemvalue="Python.Modelling" />
+      <item itemvalue="Python.scratch" />
+      <item itemvalue="Python.DataExtraaction" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.env" />
-        <item itemvalue="Python.Blackjack" />
-        <item itemvalue="Python.Functions" />
-        <item itemvalue="Python.GUI" />
-        <item itemvalue="Python.OpenAI" />
+        <item itemvalue="Python.DataExtraaction" />
+        <item itemvalue="Python.Data_Extraction (1)" />
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.Modelling" />
+        <item itemvalue="Python.Blackjack (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -511,15 +543,6 @@
     <option name="localTasksCounter" value="12" />
     <servers />
   </component>
-  <component name="TodoView" selected-index="1">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -552,49 +575,83 @@
       <screen x="0" y="0" width="1462" height="864" />
     </state>
     <state x="324" y="93" width="814" height="731" key="#Intentions/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577228858507" />
+    <state x="183" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577314342802">
+      <screen x="0" y="0" width="1462" height="864" />
+    </state>
+    <state x="183" y="88" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1462.864@0.0.1462.864" timestamp="1577314342802" />
     <state x="384" y="29" key="CommitChangelistDialog2" timestamp="1577313235267">
       <screen x="0" y="0" width="1462" height="864" />
     </state>
     <state x="384" y="29" key="CommitChangelistDialog2/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235131292" />
     <state x="384" y="29" key="CommitChangelistDialog2/0.0.1462.864@0.0.1462.864" timestamp="1577313235267" />
-    <state width="707" height="275" key="GridCell.Tab.0.bottom" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="400" height="466" key="DebuggerActiveHint" timestamp="1583708349687">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="400" height="466" key="DebuggerActiveHint/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583708349687" />
+    <state x="640" y="235" key="FileChooserDialogImpl" timestamp="1583701872910">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state x="640" y="235" key="FileChooserDialogImpl/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583701872910" />
+    <state x="641" y="235" key="FileChooserDialogImpl/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577547070642" />
+    <state x="508" y="188" key="FileChooserDialogImpl/0.0.1462.864@0.0.1462.864" timestamp="1577314333385" />
+    <state width="1485" height="235" key="GridCell.Tab.0.bottom" timestamp="1583713954742">
+      <screen x="0" y="0" width="1842" height="1080" />
+    </state>
+    <state width="1485" height="235" key="GridCell.Tab.0.bottom/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713954742" />
+    <state width="1424" height="198" key="GridCell.Tab.0.bottom/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
+    <state width="1372" height="179" key="GridCell.Tab.0.bottom/0.0.1458.864@0.0.1458.864" timestamp="1579714328571" />
     <state width="1438" height="202" key="GridCell.Tab.0.bottom/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
-    <state width="707" height="275" key="GridCell.Tab.0.bottom/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.0.center" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1420" height="199" key="GridCell.Tab.0.bottom/0.0.1462.864@0.0.1462.864" timestamp="1577330910302" />
+    <state width="1485" height="235" key="GridCell.Tab.0.center" timestamp="1583713954742">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="235" key="GridCell.Tab.0.center/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713954742" />
+    <state width="1424" height="198" key="GridCell.Tab.0.center/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
+    <state width="1372" height="179" key="GridCell.Tab.0.center/0.0.1458.864@0.0.1458.864" timestamp="1579714328571" />
     <state width="1438" height="202" key="GridCell.Tab.0.center/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
-    <state width="707" height="275" key="GridCell.Tab.0.center/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.0.left" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1420" height="199" key="GridCell.Tab.0.center/0.0.1462.864@0.0.1462.864" timestamp="1577330910302" />
+    <state width="1485" height="235" key="GridCell.Tab.0.left" timestamp="1583713954742">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="235" key="GridCell.Tab.0.left/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713954742" />
+    <state width="1424" height="198" key="GridCell.Tab.0.left/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
+    <state width="1372" height="179" key="GridCell.Tab.0.left/0.0.1458.864@0.0.1458.864" timestamp="1579714328571" />
     <state width="1438" height="202" key="GridCell.Tab.0.left/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
-    <state width="707" height="275" key="GridCell.Tab.0.left/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.0.right" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1420" height="199" key="GridCell.Tab.0.left/0.0.1462.864@0.0.1462.864" timestamp="1577330910302" />
+    <state width="1485" height="235" key="GridCell.Tab.0.right" timestamp="1583713954742">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="235" key="GridCell.Tab.0.right/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713954742" />
+    <state width="1424" height="198" key="GridCell.Tab.0.right/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
+    <state width="1372" height="179" key="GridCell.Tab.0.right/0.0.1458.864@0.0.1458.864" timestamp="1579714328571" />
     <state width="1438" height="202" key="GridCell.Tab.0.right/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138431" />
-    <state width="707" height="275" key="GridCell.Tab.0.right/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.1.bottom" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1420" height="199" key="GridCell.Tab.0.right/0.0.1462.864@0.0.1462.864" timestamp="1577330910302" />
+    <state width="1485" height="353" key="GridCell.Tab.1.bottom" timestamp="1583713907802">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="353" key="GridCell.Tab.1.bottom/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713907802" />
+    <state width="1371" height="248" key="GridCell.Tab.1.bottom/0.0.1458.864@0.0.1458.864" timestamp="1579308396882" />
     <state width="1438" height="275" key="GridCell.Tab.1.bottom/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
     <state width="707" height="275" key="GridCell.Tab.1.bottom/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.1.center" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1485" height="353" key="GridCell.Tab.1.center" timestamp="1583713907802">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="353" key="GridCell.Tab.1.center/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713907802" />
+    <state width="1371" height="248" key="GridCell.Tab.1.center/0.0.1458.864@0.0.1458.864" timestamp="1579308396881" />
     <state width="1438" height="275" key="GridCell.Tab.1.center/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
     <state width="707" height="275" key="GridCell.Tab.1.center/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.1.left" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1485" height="353" key="GridCell.Tab.1.left" timestamp="1583713907802">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="353" key="GridCell.Tab.1.left/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713907802" />
+    <state width="1371" height="248" key="GridCell.Tab.1.left/0.0.1458.864@0.0.1458.864" timestamp="1579308396881" />
     <state width="1438" height="275" key="GridCell.Tab.1.left/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
     <state width="707" height="275" key="GridCell.Tab.1.left/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
-    <state width="707" height="275" key="GridCell.Tab.1.right" timestamp="1577313333038">
-      <screen x="0" y="0" width="1462" height="864" />
+    <state width="1485" height="353" key="GridCell.Tab.1.right" timestamp="1583713907802">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
+    <state width="1485" height="353" key="GridCell.Tab.1.right/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583713907802" />
+    <state width="1371" height="248" key="GridCell.Tab.1.right/0.0.1458.864@0.0.1458.864" timestamp="1579308396882" />
     <state width="1438" height="275" key="GridCell.Tab.1.right/0.0.1462.864/13.-1080.1920.1040@0.0.1462.864" timestamp="1577235138426" />
     <state width="707" height="275" key="GridCell.Tab.1.right/0.0.1462.864@0.0.1462.864" timestamp="1577313333038" />
     <state x="240" y="74" key="SettingsEditor" timestamp="1577217824348">
@@ -610,6 +667,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$APPLICATION_CONFIG_DIR$/scratches/scratch.py</url>
+          <line>10</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
