@@ -13,7 +13,7 @@ df = pd.read_excel(root.filename)
 drop_list=["gameid", "url", "split", 'date', 'playerid','firedrakes','waterdrakes', 'airdrakes',
            'earthdrakes']
 
-def info_parsing(df):
+def info_parsing(df): # parses for a specific region
     df.drop(drop_list, axis=1, inplace=True) #drop list not used to maximize data
     df.fillna(-9999999, inplace=True)
     #df.loc[df['position']=='Team']
@@ -40,8 +40,7 @@ def teams(parsed_df):
  #work on one region first
 '''
 
-def grouping_all(new_df): #grouping of all teams
-    location = 'C:\\Users\\Jeff\\Documents\\GitHub\\vigilant-telegram\\Data Science\\LCS'
+def grouping_team(new_df): #grouping of all teams
     for teams in new_df['team'].unique():
         team = new_df[new_df.team.str.match("%s"%(teams))]
         writer = pd.ExcelWriter('C:\\Users\\Jeff\\Documents\\GitHub\\vigilant-telegram\\Data Science\\LCS'
@@ -49,7 +48,26 @@ def grouping_all(new_df): #grouping of all teams
         team.to_excel(writer)
         writer.save()
 
+def grouping_position(new_df): #grouping by position
+    drop_list = ["ban1", "ban2", "ban3", "ban4", "ban5"] #Removed all bans from this point on
+    new_df.drop(drop_list, axis=1, inplace=True)  # drop list not used to maximize data
+    for positions in new_df['position'].unique():
+        position = new_df[new_df.position.str.match("%s"%(positions))]
+        writer = pd.ExcelWriter('C:\\Users\\Jeff\\Documents\\GitHub\\vigilant-telegram\\Data Science\\LCS'
+                                '\\Positions\\%s.xlsx'%(positions), engine='xlsxwriter')
+        position.to_excel(writer)
+        writer.save()
+def grouping_player(new_df): #grouping by position
+    #drop_list = ["ban1", "ban2", "ban3", "ban4", "ban5"]
+    #new_df.drop(drop_list, axis=1, inplace=True)  # drop list not used to maximize data
+    for players in new_df['player'].unique():
+        player = new_df[new_df.player.str.match("%s"%(players))]
+        writer = pd.ExcelWriter('C:\\Users\\Jeff\\Documents\\GitHub\\vigilant-telegram\\Data Science\\LCS'
+                                '\\Players\\%s.xlsx'%(players), engine='xlsxwriter')
+        player.to_excel(writer)
+        writer.save()
 info_parsing(df)
-grouping_all(new_df)
-
+grouping_team(new_df)
+grouping_position(new_df)
+grouping_player(new_df)
 
