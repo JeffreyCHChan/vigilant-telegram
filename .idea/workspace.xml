@@ -2,82 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c609655e-5ad8-464a-bca3-c10253141f13" name="Default Changelist" comment="GUI enabled blackjack">
-      <change afterPath="$PROJECT_DIR$/Data Science/Features.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Log.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Akaadian.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Altec.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Apollo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Bang.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Biofrost.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Bjergsen.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Blaber.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Broken Blade.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Broxah.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Closer.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Cody Sun.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/CoreJJ.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Crown.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Dardoch.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Doublelift.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Eika.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/FBI.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Froggen.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Goldenglue.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Grig.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Hakuho.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Hauntzer.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Huni.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/IgNar.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Impact.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Jensen.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Jiizuke.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Johnsun.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Keith.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Kobbe.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Kumo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Licorice.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Meteos.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Nisqy.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Pobelter.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/PowerOfEvil.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Ruin.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Ryoma.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Santorin.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Shernfire.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Smoothie.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Solo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Ssumday.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Stixxay.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Stunt.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Svenskeren.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Tactical.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Team.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/V1per.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Vulcan.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Wiggily.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/WildTurtle.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Wind.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Xmithie.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Zeyzal.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/Zven.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/aphromoo.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/huhi.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/Players/sOAZ.xlsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/~$Log.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data Science/LCS/~WRL2775.tmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data Science/Graphs.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/DataExtraaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/DataExtraaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/100 Thieves.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/100 Thieves.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/C9.xlsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Cloud9.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Cloud9.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Counter Logic Gaming.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Counter Logic Gaming.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Dignitas.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Dignitas.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Evil Geniuses.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Evil Geniuses.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/FlyQuest.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/FlyQuest.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Golden Guardians.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Golden Guardians.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Immortals.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Immortals.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Team Liquid.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Team Liquid.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Teams/Team SoloMid.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Teams/Team SoloMid.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/Features.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/Features.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/LCS/Log.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/Log.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/LCS/~$Log.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Data Science/LCS/~$Log.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data Science/LCS/~WRL2775.tmp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,15 +40,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\Data Science" />
+      <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\LCS Linear Reg" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\Blackjack" />
       <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jeff\Documents\GitHub\vigilant-telegram\LCS Linear Reg" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.DataExtraaction">
+  <component name="RunManager" selected="Python.Features">
     <configuration name="Checklist" type="PythonConfigurationType" factoryName="Python">
       <module name="vigilant-telegram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,6 +218,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Graphs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="vigilant-telegram" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Data Science" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Data Science/Graphs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="LCS Data Extraction" type="PythonConfigurationType" factoryName="Python">
       <module name="vigilant-telegram" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -321,27 +273,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Mars Weather.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Modelling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="vigilant-telegram" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML Projects/LCS Linear Reg" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML Projects/LCS Linear Reg/Modelling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -491,17 +422,17 @@
       <item itemvalue="Python.Stats project" />
       <item itemvalue="Python.DataExtraaction" />
       <item itemvalue="Python.Data_Extraction (1)" />
-      <item itemvalue="Python.Modelling" />
       <item itemvalue="Python.scratch" />
       <item itemvalue="Python.Features" />
+      <item itemvalue="Python.Graphs" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.DataExtraaction" />
         <item itemvalue="Python.Features" />
+        <item itemvalue="Python.Graphs" />
+        <item itemvalue="Python.DataExtraaction" />
         <item itemvalue="Python.Data_Extraction (1)" />
         <item itemvalue="Python.scratch" />
-        <item itemvalue="Python.Modelling" />
       </list>
     </recent_temporary>
   </component>
@@ -636,58 +567,58 @@
     <option name="LAST_COMMIT_MESSAGE" value="GUI enabled blackjack" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="400" height="466" key="DebuggerActiveHint" timestamp="1583708349687">
+    <state width="527" height="466" key="DebuggerActiveHint" timestamp="1586131073345">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="400" height="466" key="DebuggerActiveHint/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583708349687" />
+    <state width="527" height="466" key="DebuggerActiveHint/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586131073345" />
     <state x="640" y="235" key="FileChooserDialogImpl" timestamp="1583701872910">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
     <state x="640" y="235" key="FileChooserDialogImpl/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1583701872910" />
     <state x="641" y="235" key="FileChooserDialogImpl/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577547070642" />
-    <state width="1422" height="232" key="GridCell.Tab.0.bottom" timestamp="1586055421125">
-      <screen x="0" y="0" width="1458" height="864" />
+    <state width="1785" height="353" key="GridCell.Tab.0.bottom" timestamp="1586133677257">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.0.bottom/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.0.bottom/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1424" height="198" key="GridCell.Tab.0.bottom/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
-    <state width="1422" height="232" key="GridCell.Tab.0.bottom/0.0.1458.864@0.0.1458.864" timestamp="1586055421125" />
-    <state width="1422" height="232" key="GridCell.Tab.0.center" timestamp="1586055421125">
-      <screen x="0" y="0" width="1458" height="864" />
+    <state width="1422" height="232" key="GridCell.Tab.0.bottom/0.0.1458.864@0.0.1458.864" timestamp="1586056428521" />
+    <state width="1785" height="353" key="GridCell.Tab.0.center" timestamp="1586133677257">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.0.center/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.0.center/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1424" height="198" key="GridCell.Tab.0.center/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
-    <state width="1422" height="232" key="GridCell.Tab.0.center/0.0.1458.864@0.0.1458.864" timestamp="1586055421125" />
-    <state width="1422" height="232" key="GridCell.Tab.0.left" timestamp="1586055421125">
-      <screen x="0" y="0" width="1458" height="864" />
+    <state width="1422" height="232" key="GridCell.Tab.0.center/0.0.1458.864@0.0.1458.864" timestamp="1586056428521" />
+    <state width="1785" height="353" key="GridCell.Tab.0.left" timestamp="1586133677257">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.0.left/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.0.left/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1424" height="198" key="GridCell.Tab.0.left/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
-    <state width="1422" height="232" key="GridCell.Tab.0.left/0.0.1458.864@0.0.1458.864" timestamp="1586055421125" />
-    <state width="1422" height="232" key="GridCell.Tab.0.right" timestamp="1586055421125">
-      <screen x="0" y="0" width="1458" height="864" />
+    <state width="1422" height="232" key="GridCell.Tab.0.left/0.0.1458.864@0.0.1458.864" timestamp="1586056428521" />
+    <state width="1785" height="353" key="GridCell.Tab.0.right" timestamp="1586133677257">
+      <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.0.right/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.0.right/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1424" height="198" key="GridCell.Tab.0.right/-1920.334.1477.864/0.0.1846.1080@0.0.1846.1080" timestamp="1577562896683" />
-    <state width="1422" height="232" key="GridCell.Tab.0.right/0.0.1458.864@0.0.1458.864" timestamp="1586055421125" />
-    <state width="1798" height="353" key="GridCell.Tab.1.bottom" timestamp="1586047273404">
+    <state width="1422" height="232" key="GridCell.Tab.0.right/0.0.1458.864@0.0.1458.864" timestamp="1586056428521" />
+    <state width="1785" height="353" key="GridCell.Tab.1.bottom" timestamp="1586133677257">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.1.bottom/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.1.bottom/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1485" height="353" key="GridCell.Tab.1.bottom/0.0.1458.864@0.0.1458.864" timestamp="1583721027721" />
-    <state width="1798" height="353" key="GridCell.Tab.1.center" timestamp="1586047273404">
+    <state width="1785" height="353" key="GridCell.Tab.1.center" timestamp="1586133677257">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.1.center/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.1.center/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1485" height="353" key="GridCell.Tab.1.center/0.0.1458.864@0.0.1458.864" timestamp="1583721027721" />
-    <state width="1798" height="353" key="GridCell.Tab.1.left" timestamp="1586047273404">
+    <state width="1785" height="353" key="GridCell.Tab.1.left" timestamp="1586133677257">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.1.left/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.1.left/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1485" height="353" key="GridCell.Tab.1.left/0.0.1458.864@0.0.1458.864" timestamp="1583721027721" />
-    <state width="1798" height="353" key="GridCell.Tab.1.right" timestamp="1586047273404">
+    <state width="1785" height="353" key="GridCell.Tab.1.right" timestamp="1586133677257">
       <screen x="0" y="0" width="1842" height="1080" />
     </state>
-    <state width="1798" height="353" key="GridCell.Tab.1.right/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586047273404" />
+    <state width="1785" height="353" key="GridCell.Tab.1.right/-1920.334.1474.864/0.0.1842.1080@0.0.1842.1080" timestamp="1586133677257" />
     <state width="1485" height="353" key="GridCell.Tab.1.right/0.0.1458.864@0.0.1458.864" timestamp="1583721027721" />
     <state width="919" height="540" key="XDebugger.FullValuePopup" timestamp="1586043073783">
       <screen x="0" y="0" width="1842" height="1080" />
@@ -706,11 +637,6 @@
           <url>file://$PROJECT_DIR$/Data Science/DataExtraaction.py</url>
           <line>53</line>
           <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Data Science/Features.py</url>
-          <line>17</line>
-          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
